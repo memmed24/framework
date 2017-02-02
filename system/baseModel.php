@@ -7,8 +7,7 @@ class baseModel{
 
     public function __construct()
     {
-        $this->db = new database('localhost', 'root', '', '');
-        $this->db->connect();
+//        $this->db = new database(database, user, password);
     }
 
 }
