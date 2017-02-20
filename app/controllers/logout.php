@@ -1,0 +1,1 @@
+<?phpclass logout extends baseController {    public function __construct()    {        session_start();        session_destroy();        header('location: http://localhost/own_framework/login/');    }}

@@ -1,0 +1,1 @@
+$("#file").change(function () {    a = $("#file").val();    a = a.substr(12);    $("#img_val").prop('disabled', false).val(a);});

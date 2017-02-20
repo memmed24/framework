@@ -1,0 +1,1 @@
+<?phpclass signout extends baseController {    public function index(){        session_start();        session_destroy();        header("Location: http://localhost/own_framework/");    }}

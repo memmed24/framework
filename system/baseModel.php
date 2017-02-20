@@ -3,11 +3,11 @@ include "db.php";
 
 class baseModel{
 
-    private $db;
+    public $db;
 
     public function __construct()
     {
-//        $this->db = new database(database, user, password);
+        $this->db = new database("cms", "root", "");
     }
 
 }
